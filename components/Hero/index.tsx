@@ -7,7 +7,7 @@ const Hero: FC = async () => {
   const t = await getTranslations('components.hero');
 
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} id="hero">
       <div className={styles.title}>
         <h1>{t('title')}</h1>
         <span className={styles.badge}>{t('badge')}</span>

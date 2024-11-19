@@ -16,7 +16,7 @@ const GetInvolved: FC = async () => {
   const t = await getTranslations('components.getInvolved');
 
   return (
-    <section className={styles.getInvolved}>
+    <section className={styles.getInvolved} id="get-involved">
       <h2>{t('title')}</h2>
       <p className={styles.description}>{t('description')}</p>
       <div className={styles.wrapper}>
