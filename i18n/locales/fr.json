@@ -1,0 +1,87 @@
+{
+  "app": {
+    "404": {
+      "title": "404 Page non trouvée",
+      "description": "Désolé, la page que vous cherchez n'existe pas.",
+      "back": "Retour à l'accueil"
+    },
+    "about": {
+      "header": {
+        "title": "À propos de Scholarsuite",
+        "back": "Retour à l'accueil"
+      },
+      "keyFeatures": {
+        "title": "Fonctionnalités Clés",
+        "classGroup": {
+          "title": "Gestion des Classes et des Groupes",
+          "description": "Gérez facilement les classes et les groupes, permettant une inscription simple des élèves et l'assignation des enseignants."
+        },
+        "attendance": {
+          "title": "Suivi et Justification des Présences",
+          "description": "Surveillez la présence des élèves et suivez les absences facilement. Un système de justification assure l'équité et la transparence."
+        },
+        "report": {
+          "title": "Gestion des Rapports Disciplinaires",
+          "description": "Gérez efficacement les rapports disciplinaires, avec des fonctionnalités pour ajouter, modifier et supprimer des rapports selon les besoins."
+        },
+        "admin": {
+          "title": "Tableau de Bord Admin Complet",
+          "description": "Le centre de gestion de l'ensemble du système, permettant un accès rapide et facile pour ajouter, modifier et supprimer des élèves, enseignants, classes et groupes."
+        },
+        "grade": {
+          "title": "Gestion des Notes",
+          "description": "Suivez les notes des élèves avec une interface conviviale pour ajouter, modifier et supprimer des notes selon les besoins."
+        }
+      },
+      "maintainer": {
+        "title": "À propos du Mainteneur",
+        "new-contributors-1": "Peut-être pouvez-vous contribuer au projet en ajoutant de nouvelles fonctionnalités ou en corrigeant des bugs.",
+        "new-contributors-2": "Vos contributions sont les bienvenues !",
+        "website": "Site Web Personnel"
+      },
+      "repo": {
+        "title": "Dépôt du Projet",
+        "description": "Obtenez le code source du projet sur GitHub et contribuez à son développement."
+      }
+    }
+  },
+  "components": {
+    "hero": {
+      "title": "Scholarsuite",
+      "badge": "Développement actif",
+      "tagline": "Votre application de gestion scolaire, entièrement gratuite et open source",
+      "learnMore": "En savoir plus sur Scholarsuite"
+    },
+    "getInvolved": {
+      "title": "Prêt à vous impliquer ?",
+      "description": "Il existe de nombreuses façons de nous aider à construire l'application.",
+      "cards": {
+        "learnMore": "En savoir plus",
+        "contribute": {
+          "title": "Contribuer au projet",
+          "description": "Aidez-nous à construire l'application en contribuant à la base de code sur GitHub."
+        },
+        "testApp": {
+          "title": "Tester l'application",
+          "description": "Aidez-nous à tester l'application en l'utilisant dans votre école et en fournissant des retours."
+        },
+        "reportBugs": {
+          "title": "Signaler des bugs",
+          "description": "Aidez-nous à améliorer l'application en signalant les bugs que vous trouvez."
+        },
+        "featureRequests": {
+          "title": "Demander des fonctionnalités",
+          "description": "Aidez-nous à améliorer l'application en demandant les fonctionnalités dont vous avez besoin."
+        },
+        "explainInterest": {
+          "title": "Expliquer votre intérêt pour l'application",
+          "description": "Aidez-nous à comprendre comment vous prévoyez utiliser l'application. Quelle taille d'école, quelle partie de l'application vous intéresse..."
+        },
+        "supportProject": {
+          "title": "Soutenir le projet",
+          "description": "Aidez-nous à maintenir le projet en vie en nous soutenant. Rien qu'en étoilant le projet sur GitHub, vous nous aidez déjà."
+        }
+      }
+    }
+  }
+}

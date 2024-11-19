@@ -1,2 +1,3 @@
 # scholarsuite.github.io
-Future website
+
+A showcase website for the scholarsuite project

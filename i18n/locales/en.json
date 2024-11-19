@@ -1,0 +1,87 @@
+{
+  "app": {
+    "404": {
+      "title": "404 Not Found",
+      "description": "Sorry, the page you are looking for does not exist.",
+      "back": "Back to home"
+    },
+    "about": {
+      "header": {
+        "title": "About Scholarsuite",
+        "back": "Back to home"
+      },
+      "keyFeatures": {
+        "title": "Key Features",
+        "classGroup": {
+          "title": "Class and Group Management",
+          "description": "Seamlessly manage classes and groups, allowing for easy student enrollment and teacher assignment."
+        },
+        "attendance": {
+          "title": "Attendance Tracking and Justification",
+          "description": "Monitor student attendance and track absences with ease. A justification system ensures fairness and transparency."
+        },
+        "report": {
+          "title": "Disciplinary Report Management",
+          "description": "Efficiently manage disciplinary reports, with features for adding, editing, and removing reports as necessary."
+        },
+        "admin": {
+          "title": "Comprehensive Admin Dashboard",
+          "description": "The central hub for managing the entire system, allowing for quick and easy access to add, edit, and remove students, teachers, classes, and groups."
+        },
+        "grade": {
+          "title": "Grade Management",
+          "description": "Keep track of student grades with a user-friendly interface for adding, editing, and removing grades as needed."
+        }
+      },
+      "maintainer": {
+        "title": "About the Maintainer",
+        "new-contributors-1": "Maybe you can contribute to the project by adding new features or fixing bugs.",
+        "new-contributors-2": "Your contributions are welcome!",
+        "website": "Personal Website"
+      },
+      "repo": {
+        "title": "Project Repository",
+        "description": "Get the source code of the project on GitHub and contribute to its development."
+      }
+    }
+  },
+  "components": {
+    "hero": {
+      "title": "Scholarsuite",
+      "badge": "Active development",
+      "tagline": "Your school management app, all free and open source",
+      "learnMore": "Learn more about Scholarsuite"
+    },
+    "getInvolved": {
+      "title": "Ready to get involved?",
+      "description": "There are many ways you can help us build the app.",
+      "cards": {
+        "learnMore": "Learn more",
+        "contribute": {
+          "title": "Contribute to the project",
+          "description": " Help us build the app by contributing to the codebase on GitHub."
+        },
+        "testApp": {
+          "title": "Test the app",
+          "description": "Help us test the app by using it in your school and providing feedback."
+        },
+        "reportBugs": {
+          "title": "Report a bugs",
+          "description": "Help us improve the app by reporting bugs you find."
+        },
+        "featureRequests": {
+          "title": "Request features",
+          "description": "Help us improve the app by requesting features you need."
+        },
+        "explainInterest": {
+          "title": "Explain your interest in the app",
+          "description": "Help us understand how you plan to use the app. What size of school, what part of the app are you interested in ..."
+        },
+        "supportProject": {
+          "title": "Support the project",
+          "description": "Help us keep the project alive by supporting us. Just by starring the project on GitHub, you are already helping."
+        }
+      }
+    }
+  }
+}

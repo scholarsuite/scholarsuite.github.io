@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html {
+  @apply motion-safe:scroll-smooth;
+}
+
+body {
+  @apply min-h-screen
+    bg-white
+    text-gray-900
+    dark:bg-gray-900
+    dark:text-gray-100;
+}

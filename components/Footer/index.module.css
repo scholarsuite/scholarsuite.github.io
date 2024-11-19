@@ -1,0 +1,11 @@
+.footer {
+  @apply bg-gray-700
+    py-4
+    text-center
+    text-white
+    dark:bg-black;
+
+  a:hover {
+    @apply underline;
+  }
+}
