@@ -1,10 +1,18 @@
 /**
  * @todo:
- * - Add icons using `@heroicons/react`
  * - Add correct links
  */
 import NextLink from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
+import {
+  CodeBracketIcon,
+  BoltIcon,
+  BugAntIcon,
+  SparklesIcon,
+  ChatBubbleLeftEllipsisIcon,
+  HeartIcon,
+  ArrowRightIcon,
+} from '@heroicons/react/24/solid';
 import { Link } from '~/lib/i18n/routing';
 import styles from './page.module.css';
 import type { FC } from 'react';
@@ -35,45 +43,63 @@ const Page: FC<PageProps> = async ({ params }) => {
         </p>
         <div className={styles.wrapper}>
           <div className={styles.card}>
+            <CodeBracketIcon />
             <h3>Contribute to the project</h3>
             <p>
               Help us build the app by contributing to the codebase on GitHub.
             </p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
           <div className={styles.card}>
+            <BoltIcon />
             <h3>Test the app</h3>
             <p>
               Help us test the app by using it in your school and providing
               feedback.
             </p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
           <div className={styles.card}>
+            <BugAntIcon />
             <h3>Report bugs</h3>
             <p>Help us improve the app by reporting bugs you find.</p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
           <div className={styles.card}>
+            <SparklesIcon />
             <h3>Request features</h3>
             <p>Help us improve the app by requesting features you need.</p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
           <div className={styles.card}>
+            <ChatBubbleLeftEllipsisIcon />
             <h3>Explain your interest in the app</h3>
             <p>
               Help us understand how you plan to use the app. What size of
               school, what part of the app are you interested in ...
             </p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
           <div className={styles.card}>
+            <HeartIcon />
             <h3>Support the project</h3>
             <p>
               Help us keep the project alive by supporting us. Just by starring
               the project on GitHub, you are already helping.
             </p>
-            <Link href="#">Learn more</Link>
+            <Link href="#">
+              Learn more <ArrowRightIcon />
+            </Link>
           </div>
         </div>
       </section>

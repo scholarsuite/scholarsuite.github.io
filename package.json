@@ -16,6 +16,7 @@
     "format": "turbo run lint:js lint:css -- --fix && turbo run prettier -- --write"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "classnames": "~2.5.1",
     "next": "~15.0.3",
     "next-intl": "~3.25.1",
