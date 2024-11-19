@@ -1,4 +1,4 @@
-import { useMessages, NextIntlClientProvider} from 'next-intl';
+import { useMessages, NextIntlClientProvider } from 'next-intl';
 import type { FC, PropsWithChildren } from 'react';
 
 type LocaleProviderProps = PropsWithChildren<{
@@ -12,10 +12,7 @@ export const LocaleProvider: FC<LocaleProviderProps> = ({
   const messages = useMessages();
 
   return (
-    <NextIntlClientProvider
-      messages={messages}
-      locale={locale}
-    >
+    <NextIntlClientProvider messages={messages} locale={locale}>
       {children}
     </NextIntlClientProvider>
   );

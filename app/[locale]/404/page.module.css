@@ -1,0 +1,33 @@
+.wrapper {
+  @apply flex
+    h-screen
+    flex-col
+    items-center
+    justify-center
+    space-y-4;
+
+  h1 {
+    @apply text-center
+      text-4xl
+      font-bold
+      text-gray-800
+      dark:text-gray-200;
+  }
+
+  p {
+    @apply text-center
+      text-lg
+      text-gray-600
+      dark:text-gray-400;
+  }
+
+  a {
+    @apply rounded-md
+      bg-indigo-500
+      px-4
+      py-2
+      text-white
+      transition-colors
+      hover:bg-indigo-600;
+  }
+}
