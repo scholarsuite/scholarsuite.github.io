@@ -1,1 +1,41 @@
-{}
+{
+  "components": {
+    "hero": {
+      "title": "Scholarsuite",
+      "badge": "Active development",
+      "tagline": "Your school management app, all free and open source",
+      "learnMore": "Learn more about Scholarsuite"
+    },
+    "getInvolved": {
+      "title": "Ready to get involved?",
+      "description": "There are many ways you can help us build the app.",
+      "cards": {
+        "learnMore": "Learn more",
+        "contribute": {
+          "title": "Contribute to the project",
+          "description": " Help us build the app by contributing to the codebase on GitHub."
+        },
+        "testApp": {
+          "title": "Test the app",
+          "description": "Help us test the app by using it in your school and providing feedback."
+        },
+        "reportBugs": {
+          "title": "Report a bugs",
+          "description": "Help us improve the app by reporting bugs you find."
+        },
+        "featureRequests": {
+          "title": "Request features",
+          "description": "Help us improve the app by requesting features you need."
+        },
+        "explainInterest": {
+          "title": "Explain your interest in the app",
+          "description": "Help us understand how you plan to use the app. What size of school, what part of the app are you interested in ..."
+        },
+        "supportProject": {
+          "title": "Support the project",
+          "description": "Help us keep the project alive by supporting us. Just by starring the project on GitHub, you are already helping."
+        }
+      }
+    }
+  }
+}
