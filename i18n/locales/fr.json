@@ -1,1 +1,41 @@
-{}
+{
+  "components": {
+    "hero": {
+      "title": "Scholarsuite",
+      "badge": "En développement actif",
+      "tagline": "Votre application de gestion scolaire, entièrement gratuite et open source",
+      "learnMore": "En savoir plus sur Scholarsuite"
+    },
+    "getInvolved": {
+      "title": "Prêt à vous impliquer ?",
+      "description": "Il y a de nombreuses façons dont vous pouvez nous aider à construire l'application.",
+      "cards": {
+        "learnMore": "En savoir plus",
+        "contribute": {
+          "title": "Contribuer au projet",
+          "description": "Aidez-nous à construire l'application en contribuant à la base de code sur GitHub."
+        },
+        "testApp": {
+          "title": "Tester l'application",
+          "description": "Aidez-nous à tester l'application en l'utilisant dans votre école et en fournissant des retours."
+        },
+        "reportBugs": {
+          "title": "Signaler des bugs",
+          "description": "Aidez-nous à améliorer l'application en signalant les bugs que vous trouvez."
+        },
+        "featureRequests": {
+          "title": "Demander des fonctionnalités",
+          "description": "Aidez-nous à améliorer l'application en demandant les fonctionnalités dont vous avez besoin."
+        },
+        "explainInterest": {
+          "title": "Expliquer votre intérêt pour l'application",
+          "description": "Aidez-nous à comprendre comment vous prévoyez utiliser l'application. Quelle taille d'école, quelle partie de l'application vous intéresse..."
+        },
+        "supportProject": {
+          "title": "Soutenir le projet",
+          "description": "Aidez-nous à maintenir le projet en vie en nous soutenant. Rien qu'en étoilant le projet sur GitHub, vous nous aidez déjà."
+        }
+      }
+    }
+  }
+}
