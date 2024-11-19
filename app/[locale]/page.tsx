@@ -1,7 +1,3 @@
-/**
- * @todo:
- * - Add correct links
- */
 import NextLink from 'next/link';
 import { setRequestLocale } from 'next-intl/server';
 import {
@@ -48,7 +44,7 @@ const Page: FC<PageProps> = async ({ params }) => {
             <p>
               Help us build the app by contributing to the codebase on GitHub.
             </p>
-            <Link href="#">
+            <Link href="https://github.com/AugustinMauroy/scholarsuite/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">
               Learn more <ArrowRightIcon />
             </Link>
           </div>
@@ -59,7 +55,7 @@ const Page: FC<PageProps> = async ({ params }) => {
               Help us test the app by using it in your school and providing
               feedback.
             </p>
-            <Link href="#">
+            <Link href="https://github.com/AugustinMauroy/scholarsuite?tab=readme-ov-file#having-your-instance-of--scholarsuite-">
               Learn more <ArrowRightIcon />
             </Link>
           </div>
@@ -67,7 +63,7 @@ const Page: FC<PageProps> = async ({ params }) => {
             <BugAntIcon />
             <h3>Report bugs</h3>
             <p>Help us improve the app by reporting bugs you find.</p>
-            <Link href="#">
+            <Link href="https://github.com/AugustinMauroy/scholarsuite/issues">
               Learn more <ArrowRightIcon />
             </Link>
           </div>
@@ -75,7 +71,7 @@ const Page: FC<PageProps> = async ({ params }) => {
             <SparklesIcon />
             <h3>Request features</h3>
             <p>Help us improve the app by requesting features you need.</p>
-            <Link href="#">
+            <Link href="https://github.com/AugustinMauroy/scholarsuite/issues">
               Learn more <ArrowRightIcon />
             </Link>
           </div>
@@ -97,7 +93,7 @@ const Page: FC<PageProps> = async ({ params }) => {
               Help us keep the project alive by supporting us. Just by starring
               the project on GitHub, you are already helping.
             </p>
-            <Link href="#">
+            <Link href="https://github.com/AugustinMauroy/scholarsuite">
               Learn more <ArrowRightIcon />
             </Link>
           </div>
