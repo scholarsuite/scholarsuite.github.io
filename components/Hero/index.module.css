@@ -29,7 +29,9 @@
         py-1
         text-xs
         font-bold
-        text-white;
+        text-white
+        shadow-md
+        shadow-green-700;
     }
   }
 
