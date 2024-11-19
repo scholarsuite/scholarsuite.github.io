@@ -16,9 +16,9 @@
     }
 
     a {
-      @apply text-indigo-500
-        hover:underline
-        mt-2;
+      @apply mt-2
+        text-indigo-500
+        hover:underline;
     }
   }
 }

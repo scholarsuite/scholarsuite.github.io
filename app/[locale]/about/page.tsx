@@ -18,81 +18,53 @@ const Page: FC<PageProps> = async ({ params }) => {
     <>
       <header className={styles.header}>
         <div className={styles.textWrapper}>
-          <h1>
-            {t('header.title')}
-          </h1>
-          <Link href="/">
-            {t('header.back')}
-          </Link>
+          <h1>{t('header.title')}</h1>
+          <Link href="/">{t('header.back')}</Link>
         </div>
       </header>
       <main className={styles.main}>
         <section className={styles.section}>
-          <h2>
-            {t('keyFeatures.title')}
-          </h2>
+          <h2>{t('keyFeatures.title')}</h2>
           <ul className={styles.featuresList}>
             <li>
               <CheckCircleIcon />
               <div>
-                <h3 >
-                  {t('keyFeatures.classGroup.title')}
-                </h3>
-                <p>
-                  {t('keyFeatures.classGroup.description')}
-                </p>
+                <h3>{t('keyFeatures.classGroup.title')}</h3>
+                <p>{t('keyFeatures.classGroup.description')}</p>
               </div>
             </li>
             <li>
               <CheckCircleIcon />
               <div>
-                <h3 >
-                  {t('keyFeatures.attendance.title')}
-                </h3>
-                <p>
-                  {t('keyFeatures.attendance.description')}
-                </p>
+                <h3>{t('keyFeatures.attendance.title')}</h3>
+                <p>{t('keyFeatures.attendance.description')}</p>
               </div>
             </li>
             <li>
               <CheckCircleIcon />
               <div>
-                <h3 >
-                  {t('keyFeatures.report.title')}
-                </h3>
-                <p>
-                  {t('keyFeatures.report.description')}
-                </p>
-              </div>
-            </li>
-            <li>
-              <CheckCircleIcon  />
-              <div>
-                <h3>
-                  {t('keyFeatures.admin.title')}
-                </h3>
-                <p>
-                  {t('keyFeatures.admin.description')}
-                </p>
+                <h3>{t('keyFeatures.report.title')}</h3>
+                <p>{t('keyFeatures.report.description')}</p>
               </div>
             </li>
             <li>
               <CheckCircleIcon />
               <div>
-                <h3>
-                  {t('keyFeatures.grade.title')}
-                </h3>
-                <p>
-                  {t('keyFeatures.grade.description')}
-                </p>
+                <h3>{t('keyFeatures.admin.title')}</h3>
+                <p>{t('keyFeatures.admin.description')}</p>
+              </div>
+            </li>
+            <li>
+              <CheckCircleIcon />
+              <div>
+                <h3>{t('keyFeatures.grade.title')}</h3>
+                <p>{t('keyFeatures.grade.description')}</p>
               </div>
             </li>
           </ul>
         </section>
         <section className={styles.section}>
-          <h2>
-            {t('maintainer.title')}
-          </h2>
+          <h2>{t('maintainer.title')}</h2>
           <div className={styles.maintainer}>
             <div className={styles.info}>
               <a href="https://github.com/augustinmauroy">
@@ -127,20 +99,13 @@ const Page: FC<PageProps> = async ({ params }) => {
           </div>
         </section>
         <section className={styles.section}>
-          <h2>
-            {t('repo.title')}
-          </h2>
-          <p className={styles.repoInfo}>
-            {t('repo.description')}
-          </p>
+          <h2>{t('repo.title')}</h2>
+          <p className={styles.repoInfo}>{t('repo.description')}</p>
           <a
             href="https://github.com/augustinmauroy/scholarsuite"
             className={styles.repoLink}
           >
-            GitHub{' '}
-            <code>
-              augustinmauroy/scholarsuite
-            </code>
+            GitHub <code>augustinmauroy/scholarsuite</code>
           </a>
         </section>
       </main>
