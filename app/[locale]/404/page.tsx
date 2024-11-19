@@ -1,11 +1,14 @@
+/**
+ * 404 Page - `not-found.tsx` doesn't work with intl + static generation
+ */
 import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import type { FC } from 'react';
 import type { BaseParams } from '~/types/params';
 
-type NotFoundPageProps = BaseParams;
+type PageProps = BaseParams;
 
-const NotFoundPage: FC<NotFoundPageProps> = async ({ params }) => {
+const Page: FC<PageProps> = async ({ params }) => {
   const { locale } = await params;
   setRequestLocale(locale);
 
@@ -18,4 +21,4 @@ const NotFoundPage: FC<NotFoundPageProps> = async ({ params }) => {
   );
 };
 
-export default NotFoundPage;
+export default Page;

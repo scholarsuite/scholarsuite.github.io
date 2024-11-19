@@ -29,9 +29,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const messages = await loadLocaleDictionary(locale);
 
-  console.log(`[i18n:request] locale=${locale}`);
-  console.log(`[i18n:request] messages=${JSON.stringify(messages)}`);
-
   return {
     locale,
     messages,
