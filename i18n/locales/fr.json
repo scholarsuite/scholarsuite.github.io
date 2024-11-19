@@ -1,5 +1,10 @@
 {
   "app": {
+    "404": {
+      "title": "404 Page non trouvée",
+      "description": "Désolé, la page que vous cherchez n'existe pas.",
+      "back": "Retour à l'accueil"
+    },
     "about": {
       "header": {
         "title": "À propos de Scholarsuite",
