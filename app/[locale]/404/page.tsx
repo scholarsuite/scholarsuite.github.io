@@ -12,15 +12,13 @@ type PageProps = BaseParams;
 const Page: FC<PageProps> = async ({ params }) => {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("app.404");
+  const t = await getTranslations('app.404');
 
   return (
     <main className={styles.wrapper}>
       <h1>{t('title')}</h1>
       <p>{t('description')}</p>
-      <Link href="/">
-        {t('back')}
-      </Link>
+      <Link href="/">{t('back')}</Link>
     </main>
   );
 };
