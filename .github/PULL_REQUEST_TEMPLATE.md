@@ -17,7 +17,6 @@ Please follow this check list to ensure that you've followed all items before op
 You can check the items by adding an `x` between the brackets, like this: `[x]`
 -->
 
-- [ ] I have read the [Contributing Guidelines](https://github.com/nodejs/nodejs.org/blob/main/CONTRIBUTING.md) and made commit messages that follow the guideline.
 - [ ] I have run `node --run format` to ensure the code follows the style guide.
 - [ ] I have run `npx turbo build` to check if the website builds without errors.
 - [ ] I've covered new added functionality with unit tests if necessary.
