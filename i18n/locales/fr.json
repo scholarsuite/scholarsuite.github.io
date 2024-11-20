@@ -1,11 +1,25 @@
 {
   "app": {
     "404": {
+      "metadata": {
+        "title": "404 Page non trouvée - Scholarsuite",
+        "description": "Désolé, la page que vous cherchez n'existe pas."
+      },
       "title": "404 Page non trouvée",
       "description": "Désolé, la page que vous cherchez n'existe pas.",
       "back": "Retour à l'accueil"
     },
+    "home": {
+      "metadata": {
+        "title": "Scholarsuite",
+        "description": "Votre application de gestion scolaire, entièrement gratuite et open source"
+      }
+    },
     "about": {
+      "metadata": {
+        "title": "À propos - Scholarsuite",
+        "description": "En savoir plus sur Scholarsuite, l'application de gestion scolaire gratuite et open source."
+      },
       "header": {
         "title": "À propos de Scholarsuite",
         "back": "Retour à l'accueil"
