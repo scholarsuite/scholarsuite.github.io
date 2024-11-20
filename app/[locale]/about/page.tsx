@@ -4,9 +4,19 @@ import { Link } from '~/lib/i18n/routing';
 import Footer from '~/components/Footer';
 import styles from './page.module.css';
 import type { FC } from 'react';
+import type { Metadata } from 'next';
 import type { BaseParams } from '~/types/params';
 
 type PageProps = BaseParams;
+
+export const generateMetadata = async (): Promise<Metadata> => {
+  const t = await getTranslations('app.about.metadata');
+
+  return {
+    title: t('title'),
+    description: t('description'),
+  };
+};
 
 const Page: FC<PageProps> = async ({ params }) => {
   const { locale } = await params;
