@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   // Static website output
   output: 'export',
   trailingSlash: false,
+  images: { unoptimized: true },
 };
 
 export default withNextIntl(nextConfig);
