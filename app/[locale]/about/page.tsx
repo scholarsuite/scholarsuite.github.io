@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '~/lib/i18n/routing';
@@ -78,7 +79,7 @@ const Page: FC<PageProps> = async ({ params }) => {
           <div className={styles.maintainer}>
             <div className={styles.info}>
               <a href="https://github.com/augustinmauroy">
-                <img
+                <Image
                   src="https://avatars.githubusercontent.com/AugustinMauroy"
                   alt="Augustin Mauroy"
                 />
