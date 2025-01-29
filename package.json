@@ -13,35 +13,35 @@
     "prettier": "prettier --write . --cache --cache-strategy=content --cache-location=.prettiercache",
     "prettier:check": "prettier --check . --cache --cache-strategy=content --cache-location=.prettiercache",
     "type-check": "tsc --noEmit",
-    "format": "turbo run lint:js lint:css -- --fix && turbo run prettier -- --write"
+    "pre-commit": "turbo run lint:js lint:css -- --fix && turbo run prettier -- --write"
   },
   "dependencies": {
     "@heroicons/react": "~2.2.0",
     "classnames": "~2.5.1",
-    "next": "~15.0.4",
-    "next-intl": "~3.26.0",
+    "next": "~15.1.6",
+    "next-intl": "~3.26.3",
     "react": "~19.0.0",
     "react-dom": "~19.0.0",
-    "turbo": "~2.3.3"
+    "turbo": "~2.3.4"
   },
   "devDependencies": {
-    "@types/node": "~22.10.1",
-    "@types/react": "~19.0.1",
-    "@types/react-dom": "~19.0.1",
+    "@types/node": "~22.12.0",
+    "@types/react": "~19.0.8",
+    "@types/react-dom": "~19.0.3",
     "autoprefixer": "~10.4.20",
     "eslint": "~8.57.0",
-    "eslint-config-next": "~15.0.3",
-    "eslint-config-prettier": "~9.1.0",
-    "postcss": "~8.4.49",
+    "eslint-config-next": "~15.1.6",
+    "eslint-config-prettier": "~10.0.1",
+    "postcss": "~8.5.1",
     "prettier": "~3.4.2",
-    "prettier-plugin-tailwindcss": "~0.6.9",
+    "prettier-plugin-tailwindcss": "~0.6.11",
     "serve": "~14.2.4",
     "stylelint": "^16.11.0",
-    "stylelint-config-standard": "~36.0.0",
+    "stylelint-config-standard": "~37.0.0",
     "stylelint-order": "~6.0.4",
-    "stylelint-selector-bem-pattern": "~4.0.0",
+    "stylelint-selector-bem-pattern": "~4.0.1",
     "tailwindcss": "~3.4.16",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.3"
   },
   "packageManager": "npm@10.0.0"
 }
