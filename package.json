@@ -20,14 +20,14 @@
     "classnames": "~2.5.1",
     "next": "~15.2.4",
     "next-intl": "~3.26.3",
-    "react": "~19.0.0",
-    "react-dom": "~19.0.0",
+    "react": "~19.1.0",
+    "react-dom": "~19.1.0",
     "turbo": "~2.3.4"
   },
   "devDependencies": {
     "@types/node": "~22.13.16",
-    "@types/react": "~19.0.8",
-    "@types/react-dom": "~19.0.3",
+    "@types/react": "~19.1.0",
+    "@types/react-dom": "~19.1.1",
     "autoprefixer": "~10.4.20",
     "eslint": "~8.57.0",
     "eslint-config-next": "~15.1.6",
